@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Predict Probability of Default </h1>
+                <form action = "http://127.0.0.1:5000/" method = "post">
+                    <p> Please enter your annual income : </p>
+                    <p> <input type ="number", step = "1" name = "income"> </p>
+                    <p> Please enter your age : </p>
+                    <p><input type ="number", step ="1" name ="age"></p>
+                    <p> Please enter the loan amount : </p>
+                    <p><input type ="number", step ="1" name ="loan"></p>
+                    <p><input type = "submit", value = "Enter"></p>
+                </form>
+                <P> {{result1}}</P>
+                <P> {{result2}}</P>
+                <P> {{result3}}</P>
+                <P> {{result4}}</P>
+                <P> {{result5}}</P>
+    </body>
+</html>
